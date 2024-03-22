@@ -15,21 +15,32 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="enter a city.." required />
-          <input type="submit" value="search" />
+        <form class="search-engine">
+          <input
+            type="search"
+            placeholder="enter a city.."
+            required
+            class="search-engine-input"
+          />
+          <input type="submit" value="search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Soweto</h1>
-          <p>
-            Friday 11:11, clear sky
-            <br />
-            Humidity: 80%, Wind: 1.54km/h
-          </p>
+        <div class="app-info">
+          <div>
+            <h1>Soweto</h1>
+            <p class="app-details">
+              Friday 11:11, clear sky
+              <br />
+              Humidity: <strong>80%</strong>, Wind: <strong>1.54km/h</strong>
+            </p>
+          </div>
+          <div class="app-content">
+            <div class="app-emoji">⛅</div>
+            <div class="app-temperature">18</div>
+            <div class="app-temperature-unit">°C</div>
+          </div>
         </div>
-        <div>⛅18°C</div>
       </main>
       <footer>
         Coded by
