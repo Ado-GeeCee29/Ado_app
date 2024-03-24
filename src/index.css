@@ -70,11 +70,12 @@ h1 {
 .app-temperature {
   font-size: 86px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 4px;
 }
 .app-emoji {
   font-size: 44px;
-  margin-top: 22px;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 .app-temperature-unit {
   font-size: 28px;
