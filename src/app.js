@@ -7,3 +7,4 @@ function handleSearchSubmit(event) {
 
 let searchEngineElement = document.querySelector("#search-engine");
 searchEngineElement.addEventListener("submit", handleSearchSubmit);
+
